@@ -1,0 +1,10 @@
+%div.outer
+  %div.inner
+    %h1.q Is it a leap year?
+    - if @ily
+      %h1
+        %span.ans#yes Yes!
+    - else
+      %h1.ans#no No.
+      %h5 The next leap year is in #{@nly}
+    %h4= @time_until

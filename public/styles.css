@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald); /* body */
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light); /* the next... */
+@import url(http://fonts.googleapis.com/css?family=Special+Elite); /* no */
+@import url(http://fonts.googleapis.com/css?family=Sevillana); /* yes */
+@import url(http://fonts.googleapis.com/css?family=Pacifico);/* h4  */
+
+body{
+  background-color:black;
+  color:white;
+  text-align:center;
+  font-family:'Oswald';
+  font-size:250%;
+  background-image:url('images/coudbckgrnd.jpg');
+}
+.inner{
+  margin-top:300px;
+}
+/*.ans, .q{
+  display:inline;
+}*/
+h5{
+  font-family:'Shadows Into Light', cursive;
+}
+#no{
+  color:#990000;
+  font-family:'Special Elite';
+}
+#yes{
+  color:green;
+  font-family:'Sevillana';
+}
+h4{
+  font-size:75%;
+  font-family: 'Pacifico';
+}
